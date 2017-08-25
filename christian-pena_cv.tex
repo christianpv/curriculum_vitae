@@ -1,0 +1,127 @@
+%% start of file `christian-pena_cv.tex'.
+%% Christian Pena CV
+%%
+%% Adapted from moderncv template.tex
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.815]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\definecolor{blue}{RGB}{26,13,171}
+
+% personal data
+\firstname{Christian}
+\familyname{Pena Valerio}
+
+\phone[mobile]{+1~(646)~799~7754}
+\email{khrizpv@gmail.com}
+\homepage{christianpv.com}
+\social[linkedin]{christian-pena-valerio}
+\social[twitter]{khrizpv}
+\social[github]{christianpv}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Experience}
+
+\cventry
+  {January 2017 - Present}
+  {Full Stack Software Engineer}
+  {\textmd{\href{https://learnwithhomer.com}{\textcolor{blue}{Homer}}}}
+  {\textmd{New York, NY}}{}
+  {
+    Built the GraphQL API with TypeScript, Node.js, Koa, Jest, Docker, and Redis.
+    Developed the CMS with Node.js, Express, Mocha, and S3.
+    Created the pipelines for testing the CMS/API, processing assets, and deploying to staging/production by using Jenkins, Groovy, Node.js, and Elastic Beanstalk.
+  }
+
+\cventry
+  {February 2016 - January 2017}
+  {Front End Software Engineer}
+  {\textmd{\href{https://www.speakaboos.com}{\textcolor{blue}{Speakaboos}}}}
+  {\textmd{New York, NY}}{}
+  {
+    Developed the pie charts on the parent/teacher dashboard by using D3.js with React.
+    Improved conversion by using A/B tests while working on the redesign of the user signup flow built with React.
+    Created the visual style guide use for onboarding new developers, and maintaining a consistent visual style of the applications.
+  }
+
+\cventry
+  {July 2015 - January 2016}
+  {Freelance Full Stack Web Developer}
+  {\textmd{\href{http://animecenter.tv}{\textcolor{blue}{AnimeCenter.tv}}}}
+  {\textmd{Remote}}{}
+  {
+    Rewrote most of the code to fix upcoming episode, anime pagination, latest episode on each anime page, anime relations, and caching system.
+    Redesigned the MySQL database schema while adding foreign keys, renaming columns to be more descriptive, and removing unnecessary/duplicate data.
+  }
+
+\cventry
+  {July 2015 - January 2016}
+  {Freelance Full Stack Web Developer}
+  {\textmd{\href{https://www.country-lyrics.com}{\textcolor{blue}{Country-Lyrics.com}}}}
+  {\textmd{Remote}}{}
+  {
+    Built the database schema, backend, scraper, and frontend with PHP, Laravel, Python, Scrapy, JavaScript, and MySQL.
+    Made contributions to plyr, an open source media player, to convert the LESS files to Sass.
+  }
+
+\cventry
+  {January 2015 - June 2015}
+  {Front End Web Developer}
+  {\textmd{\href{http://bitbang.cl}{\textcolor{blue}{BitBang Estudio Digital}}}}
+  {\textmd{Santiago, Chile}}{}
+  {
+    Built websites while translating the design perfectly. e.g: \textmd{\href{http://www.cchc.cl}{\textcolor{blue}{CChC}}}, \textmd{\href{http://www.latamfactors.cl}{\textcolor{blue}{Latam Factors}}}.
+    Optimized the website building process to a weekly schedule.
+  }
+
+\cventry  
+  {July 2014 - December 2014}
+  {Web Developer}
+  {\textmd{\href{http://bucarestart.cl}{\textcolor{blue}{Bucarest Art}}}}
+  {\textmd{Santiago, Chile}}{}
+  {
+    Increased revenue by enhancing SEO.
+    Built a custom WordPress theme, and plugins to add new functionality.
+  }
+
+\cventry
+  {January 2014 - June 2014}
+  {Web Developer}
+  {\textmd{Freelance}}
+  {\textmd{Remote}}{}
+  {
+    Built \textmd{\href{http://bucarestart.cl}{\textcolor{blue}{Bucarest Art}}},
+    \textmd{\href{https://web.archive.org/web/20160306131956/http://comproantiguedades.cl/}{\textcolor{blue}{Compro Antiguedades}}},
+    and \textmd{\href{http://www.clinicaloscoihues.cl/}{\textcolor{blue}{Clinica los Coihues}}}.
+    Fixed a couple bugs and added new features to the \textmd{\href{http://www.sietecomunicaciones.cl/}{\textcolor{blue}{Siete Comunicaciones}}} website.
+  }
+
+\section{Skills}
+\cvitem{Languages}{HTML, CSS, Sass, JavaScript, TypeScript, PHP, Python, GraphQL, SQL, Xpath}
+\cvitem{Frameworks, Libraries, and Tools}{Node.js, React, Webpack, Babel, D3.js, Express, Koa, Yarn, Jest, Bootstrap, Eslint, Flow, Prettier, Jenkins, Nginx, Docker, MySQL, MongoDB, Redis}
+\cvitem{Knowledge}{MVC, OOP, DRY, KISS, Responsive Design, User Experience Design, CLI, A/B Test, Query Builder, ORMs, SEO, HTTP, SVG, Route 53, EC2, S3, Elastic Beanstalk, ElasticCache}
+\end{document}
